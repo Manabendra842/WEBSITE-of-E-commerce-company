@@ -1,0 +1,337 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.no-padding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.dano{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+.lalto{
+	font-family: Century Gothic;
+}
+.nalto{
+	background-color: #F7DC6F;
+}
+.palto{
+	font-color: white;
+}
+.palto:hover {
+	font-color: black;
+	background-color: white;
+}
+.naptol{
+	color: white;
+
+}
+.naptol:hover {
+	font-color: black;
+	background-color: white;
+	
+}
+.dropdown-menu .dropdown-item:hover {
+	background-color: #82E0AA;
+}
+.jabra:hover {
+	background-color: white;
+}
+.pulk{
+background-color: red;
+color: white;
+}
+.pulk:hover{
+	background-color: black;
+	color: white;
+}
+.tulk{
+background-color: yellow;
+}
+.tulk:hover{
+	background-color: black;
+	color: white;
+}
+
+.hulk{
+	background-color: purple;
+}
+.hulk:hover {
+	background-color: #3498DB;
+}
+
+.protop{
+	height: 700px;
+	width: 100%;
+	background-image:url('50.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.number-input input[type="number"] {
+-webkit-appearance: textfield;
+-moz-appearance: textfield;
+appearance: textfield;
+}
+
+.number-input input[type=number]::-webkit-inner-spin-button,
+.number-input input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+}
+
+.number-input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.number-input button {
+-webkit-appearance: none;
+background-color: transparent;
+border: none;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+margin: 0;
+position: relative;
+}
+
+.number-input button:before,
+.number-input button:after {
+display: inline-block;
+position: absolute;
+content: '';
+height: 2px;
+transform: translate(-50%, -50%);
+}
+
+.number-input button.plus:after {
+transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+text-align: center;
+}
+
+.number-input.number-input {
+border: 1px solid #ced4da;
+width: 10rem;
+border-radius: .25rem;
+}
+
+.number-input.number-input button {
+width: 2.6rem;
+height: .7rem;
+}
+
+.number-input.number-input button.minus {
+padding-left: 10px;
+}
+
+.number-input.number-input button:before,
+.number-input.number-input button:after {
+width: .7rem;
+background-color: #495057;
+}
+
+.number-input.number-input input[type=number] {
+max-width: 4rem;
+padding: .5rem;
+border: 1px solid #ced4da;
+border-width: 0 1px;
+font-size: 1rem;
+height: 2rem;
+color: #495057;
+}
+
+@media not all and (min-resolution:.001dpcm) {
+@supports (-webkit-appearance: none) and (stroke-color:transparent) {
+
+.number-input.def-number-input.safari_only button:before,
+.number-input.def-number-input.safari_only button:after {
+margin-top: -.3rem;
+}
+}
+}
+
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img { 
+  cursor: pointer; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+  .vertical { 
+            border-left: 3px solid black; 
+            height: 150px; 
+            position:absolute; 
+            left: 50%; 
+        } 
+
+
+
+.rating{
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.rating li{
+	list-style-type: none;
+}
+
+.rating-item{
+	border: 1px solid #fff;
+	cursor: pointer;
+	font-size: 2em;
+	color: red;
+}
+
+.rating-item::before{
+	content: "\2605";
+}
+
+.rating-item.active ~ .rating-item::before{
+	content: "\2606";
+}
+
+.rating:hover .rating-item::before{
+	content: "\2605";
+}
+
+.rating-item:hover ~ .rating-item::before{
+	content: "\2606";
+}
+
+.sidenav {
+  width: 130px;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.active-pink-2 input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #f48fb1;
+  box-shadow: 0 1px 0 0 #f48fb1;
+}
+.active-pink input[type=text] {
+  border-bottom: 1px solid #f48fb1;
+  box-shadow: 0 1px 0 0 #f48fb1;
+}
+.active-purple-2 input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #ce93d8;
+  box-shadow: 0 1px 0 0 #ce93d8;
+}
+.active-purple input[type=text] {
+  border-bottom: 1px solid #ce93d8;
+  box-shadow: 0 1px 0 0 #ce93d8;
+}
+.active-cyan-2 input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #4dd0e1;
+  box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan input[type=text] {
+  border-bottom: 1px solid #4dd0e1;
+  box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan .fa, .active-cyan-2 .fa {
+  color: #4dd0e1;
+}
+.active-purple .fa, .active-purple-2 .fa {
+  color: #ce93d8;
+}
+.active-pink .fa, .active-pink-2 .fa {
+  color: #f48fb1;
+}
+
+.new4 {
+	border: 1px solid black;
+}
+
+.tainaki{
+	color: black;
+}
+.tainaki:hover {
+	color:  blue;
+}
+
+.bagoon{
+	font-weight:900;
+}
+
+.hola{
+
+	border: 1px solid white;
+}

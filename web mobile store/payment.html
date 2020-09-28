@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>payment</title>
+
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/style2.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- JQuery -->
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+
+
+
+
+
+  
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #78281F ;">
+  <a class="navbar-brand lalto" href="#">
+    <img src="image/real.jfif" width="50" height="50" style="border-radius: 50%" class="d-inline-block">
+  Realme</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html"><h5 class="h5 responsive">Shop Now</h5> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="category.html">PRODUCTS</a>
+      </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         CATEGORIES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="category.html #coconut"><i class="fa fa-television fa-lg" aria-hidden="true"></i> <b>smart TV</b></a>
+
+          <a class="dropdown-item" href="category.html #tree"><i class="fa fa-android fa-lg" aria-hidden="true"></i> <b>Android phones</b></a>
+
+          <a class="dropdown-item" href="category.html #flower"><i class="fa fa-headphones fa-lg" aria-hidden="true"></i><b> earphones</b></a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="login.html">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Community</a>
+      </li>
+      <li class="nav-item dropdown mt-1">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-user-circle-o fa-lg" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown ml-5">
+<a class="dropdown-item" href="#"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i><b>  Cart</b></a>
+          <a class="dropdown-item" href="#"><i class="fa fa-list-alt fa-lg" aria-hidden="true"></i><b>  My Order</b></a>
+          <a class="dropdown-item" href="#"><i class="fa fa-money fa-lg" aria-hidden="true"></i> <b> Coupon </b></a>
+          <a class="dropdown-item" href="#"><i class="fa fa-commenting-o fa-lg" aria-hidden="true"></i><b>  Reviews</b></a>
+          <a class="dropdown-item" href="#">&nbsp;<i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> <b> &nbsp;Address</b></a>
+           <a class="dropdown-item" href="#"><i class="fa fa-address-card-o fa-lg" aria-hidden="true"></i>  <b> Account</b></a>
+        </div>
+      </li>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <form class="form-inline my-2 my-lg-0">
+    <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-white btn-md my-2 my-sm-0 " type="submit"><i class="fa fa-search fa-lg" aria-hidden="true"></i></button>
+  </form>
+    </ul>
+  </div>
+</nav>
+
+<!--main-->
+
+
+  <div class="container-fluid" style="margin-top: 150px;">
+
+    <div class="row">
+        <div class="col-md-1"></div>
+      <div class="col-md-5 mb-2" style="box-shadow: 0px 0px 10px black;padding: 20px;">
+
+        <h2 class="h2 responsive">Your Shopping Cart</h2>
+        <p><b>You are checking out as a guest,</b></p>
+        <p><b>Have an account? <a href="login.html">Sign In</a></b></p>
+
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          <strong>Billing Address</strong>
+          <a href="" class="close">
+            <span style="font-size:15px;">Edit</span>
+          </a>
+        </div>
+
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          <strong>Shipping Address</strong>
+          <a href="" class="close">
+            <span style="font-size:15px;">Edit</span>
+          </a>
+        </div>
+
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          <strong>Shipping Method</strong>
+          <a href="" class="close">
+            <span style="font-size:15px;">Edit</span>
+          </a>
+        </div>
+
+        <!-- Payment Box -->
+<div class="card">
+
+    <h5 class="card-header danger-color white-text text-center py-4">
+        <strong>Payment</strong>
+    </h5>
+
+    <!--Card content-->
+    <div class="card-body px-lg-5 pt-0">
+
+        <!-- Form -->
+        <form  style="color: #757575;" action="#!">
+
+            <div class="form-row mt-4">
+                <div class="col">
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control required" placeholder="Promo Code (optional)" aria-label="Recipient's username" id="n" aria-describedby="button-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-primary  m-0 px-5 py-2 z-depth-0 waves-effect" type="button"   id="lol">Apply</button>
+   
+ 
+  </div>
+</div>
+  <p><a href="#" class="text-dark"><b><u>what is this</u></b></a></p>
+  <hr><br>
+
+
+  <h4 class="h4 responsive " style="margin-right: 200px; "><strong><u>Credit card</u></strong></h4>
+  <a href="#"><img src="image/1000.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a><img src="image/1001.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a><img src="image/1002.png"></a>
+
+
+<input type="password" class="form-control" placeholder="Card number" aria-label="Recipient's username"
+    aria-describedby="button-addon2">
+    <br>
+
+  <div class="md-form md-outline input-with-post-icon datepicker tanngal"  id="customDays">
+  <input placeholder="date-month-year" type="text" id="Customization" class="form-control">
+  <i class="fas fa-calendar input-prefix" tabindex=0></i>
+
+</div>
+
+<br>
+
+
+
+
+<input type="password" class="form-control" placeholder="Security Code" aria-label="Security Code"
+    aria-describedby="button-addon2">
+
+<br>
+  <p><a href="#" class="text-dark"><b><u>What is this on my card</u></b></a></p>
+ </div>
+   </div>   
+
+
+            
+
+        </form>
+        <!-- Form -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $('#lol').attr('disabled', true);
+    $('#lol').css('cursor','not-allowed');
+    $('#n').keyup(function(){
+      var name = $('#n').val();
+      if(name == ''){
+        $('#lol').attr('disabled', true);
+        $('#lol').css('cursor','not-allowed');
+      }
+      else{
+        $('#lol').attr('disabled', false);
+        $('#lol').css('cursor','pointer');
+      }
+    })
+    
+  </script>
+
+    </div>
+
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function (){
+  $('.tanngal').datepicker({
+weekdaysShort: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+showMonthsShort: true
+});
+});
+  
+  </script>
+<!-- Material form register -->
+      <div class="alert alert-warning alert-dismissible fade show mt-4" role="alert">
+          <strong>Review and Replace Order</strong>
+          
+        </div>
+        <p><b>Need help contact us directly</b></p>
+        <p><b>Call Customer Service <a href="tel:9163878564">2451 245 7569</a></b></p>
+        <p><b>Email customer service at helpme@lala.com <a href="mailto:hypo@gmail.com">hypo@gmail.com</a></b></p>
+  </div>
+
+
+      <div class="col-md-5 mb-2" >
+        <!--Grid row-->
+<div class="row">
+
+  <!--Grid column-->
+  <div class="col-md-12 mb-4">
+
+    <!-- Card -->
+    <div class="card gradient-card">
+
+        <div class="card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg)"> 
+          <!-- Content -->
+          
+            <div class="text-white d-flex h-100 mask blue-gradient-rgba">
+              <div class="first-content align-self-center p-3">
+                <h3 class="card-title"><b>Order Summery</b></h3>
+                <p class="lead mb-0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your Bill is Ready </p>
+              </div>
+              <div class="second-content align-self-center mx-auto text-center">
+                <i class="far fa-money-bill-alt fa-3x"></i>
+              </div>
+            </div>
+          
+
+        </div>
+
+        <!-- Data -->
+       
+
+        <!-- Content -->
+        <div class="card-body white">
+
+          <div class="row mb-2" style="padding: 10px;background-color: #F7DC6F;">
+              <div class="col-md-4">
+                <img src="image/76.jpg" class="img-thumbnail">
+              </div>
+              <div class="col-md-4">
+                <small><b>#NAME: Realme 6i</b></small>
+                <br><br>
+                <small><b>#Product Code: 67JWAFGJ73GB5B</b></small>
+              </div>
+              <div class="col-md-4">
+                <p><b>Qty: 1</b></p>
+                <small><b>Price: Rs. 17,333</b></small>
+                <br><br>
+                <i class="fa fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-trash"></i>
+              </div>
+          </div>
+
+           <div class="row mb-2" style="padding: 10px;background-color: #F7DC6F;">
+              <div class="col-md-4">
+                <img src="image/8.jpg" class="img-thumbnail">
+              </div>
+              <div class="col-md-4">
+                <small><b>#NAME: Realme 30W DART charge 10000mAH poerbank</b></small>
+                <br><br>
+                <small><b>#Product Code: 78K300VBJWEGB</b></small>
+              </div>
+              <div class="col-md-4">
+                <p><b>Qty: 1</b></p>
+                <small><b>Price: Rs. 1,999</b></small>
+                <br><br>
+                <i class="fa fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-trash"></i>
+              </div>
+          </div>
+           <div class="row mb-2" style="padding: 10px;background-color: #F7DC6F;">
+              <div class="col-md-4">
+                <img src="image/9.jpg" class="img-thumbnail">
+              </div>
+              <div class="col-md-4">
+                <small><b>#NAME: Realme buds air</b></small>
+                <br><br>
+                <small><b>#Product Code: 45K300VPCIWEGFG</b></small>
+              </div>
+              <div class="col-md-4">
+                <p><b>Qty: 1</b></p>
+                <small><b>Price: Rs. 3,999</b></small>
+                <br><br>
+                <i class="fa fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-trash"></i>
+              </div>
+          </div>
+
+          
+        </div>
+
+        <div class="row mt-2 mb-2">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+            <h4 class="h4 responsive">Subtotal :-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-inr" aria-hidden="true"></i>24,331.00</h4>
+            <h4 class="h4 responsive">Discount :-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;<i class="fa fa-inr" aria-hidden="true"></i>1,000.00</h4>
+            <h4 class="h4 responsive">Shipping :-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-inr" aria-hidden="true"></i>0.00</h4>
+            <h4 class="h4 responsive">Tax :-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-inr" aria-hidden="true"></i>2,000.00 </h4>
+            <br><br>
+            </div>
+            </div>
+
+
+             <div class="row">
+              <div class="col-md-12">
+                <hr>
+              </div>
+            </div>
+
+
+        <div class="row mb-2">
+               <div class="col-md-4"></div>
+               <div class="col-md-8">
+                  <h4 class="h4 responsive">Order total :-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-inr" aria-hidden="true"></i>25,331 </h4>
+                  <br><br>
+               </div>
+
+    </div>
+    <div class="row align-self-center mb-2">
+      <a href="#" class="btn btn-unique px-lg-5"> PLACE ORDER</a>
+    </div>
+    <!-- Card -->
+
+  </div>
+  <!--Grid column-->
+
+  
+
+</div>
+<!--Grid row-->
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+<!--main-->
+<div class="container-fluid">
+  
+  <div class="row" style="margin-top: 100px;padding-top: 10px;background-color: white ;">
+    <div class="col-md-2"> </div>
+    <div class="col-md-2">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="image/free.png">
+      <p><b>Free Shipping</b></p>
+    </div>
+        <div class="col-md-2">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="image/pay.png">
+      <p><b>Secure payment</b></p>
+    </div>
+        <div class="col-md-2">
+          &nbsp;
+      <img src="image/buy.png">
+      <p><b>COD</b></p>
+    </div>
+        <div class="col-md-2">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="image/online.png">
+      <p><b>Online Service</b></p>
+    </div>
+
+  </div>
+</div>
+
+
+<footer class="page-footer font-small stylish-color-dark pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row" >
+
+      <!-- Grid column -->
+   
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Support</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">FAQ</a>
+          </li>
+          <li>
+            <a href="#!">Troubleshooting</a>
+          </li>
+          <li>
+            <a href="#!">User Guide</a>
+          </li>
+          <li>
+            <a href="#!">Service Centers</a>
+          </li>
+          <li>
+            <a href="#!">E-waste Management</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text mt-3 mb-4">About Realme</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Our Brand</a>
+          </li>
+          <li>
+            <a href="#!">Newsroom</a>
+          </li>
+          <li>
+            <a href="#!">R-partner</a>
+          </li>
+          <li>
+            <a href="#!">Retail Store</a>
+          </li>
+            <li>
+            <a href="#!">Bulk Order</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold mt-3 mb-4">Contact Realme</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="mailto:service@realme.com">serviu@realme.com</a>
+          </li>
+          <li>
+            <a href="#">orders.iuin@realme.com</a>
+          </li>
+      
+        </ul>
+
+      </div>
+       <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-3 mx-auto">
+
+        <!-- Content -->
+        <a href="tel:18001022777"><h5 class="font-weight-bold mt-3 mb-4">Call : 5600 475 2492</h5></a>
+         <a href="#" class="btn btn-btn-white border border-white naptol"><img src="image/support.png">&nbsp;&nbsp; CHAT SUPPORT</a>
+        <br>
+        <br>
+        <p>9:00-18:00，MON-SUN
+          <br>
+         Including Holidays</p>
+           <br>
+          <a href="https://www.youtube.com/realmemobiles"><img src="image/303.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://www.instagram.com/realmeindia/"><img src="image/305.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://www.facebook.com/realmeIndia/"><img src="image/310.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://twitter.com/realmemobiles"><img src="image/309.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href=""><img src="image/308.png"></a>
+      </div>
+      <!-- Grid column -->
+
+     
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+  <hr>
+<br>
+<br>
+  <!-- Call to action -->
+  <ul class="list-unstyled list-inline text-center py-2">
+    <li class="list-inline-item">
+      <h5 class="mb-1">India ( English / INR )</h5>
+    </li>
+ 
+  </ul>
+
+  <div class="footer-copyright py-3">
+    <div class="container-fluid mx-auto">
+ <div class="row">
+<div class="col-md-3">
+  <p class="ml-2">  2018-2020 realme. All Rights Reserved <sup>©</sup></p> 
+  </div>
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+      <a href="#"><b class="text-white">User agreement</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+       <a href="#"><b class="text-white">Privacy Policy</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+     <a href="#"><b class="text-white">Terms of sales</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+       <a href="#"><b class="text-white">Warranty Terms</b></a>
+    </div>
+ 
+ </div>
+</div>
+<br>
+     <p class="text-center">REALME MOBILE TELECOMMUNICATIONS (INDIA) PRIVATE LIMITED</p>
+    <p class="text-center">Address: 3rd Floor, Tower-B, Building Number 8, DLF Cyber City, Gurugram-122002, Haryana, India|Corporate Identification Number(CIN)：U32301HR2018PTC076011</p>
+  </div>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
+</body>
+</html>
