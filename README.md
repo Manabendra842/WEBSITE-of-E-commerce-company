@@ -1,4 +1,4 @@
-# WEBSITE-of-E-Commerce company
+# WEBSITE of E-Commerce company
 My first project using HTML, CSS, JS, Bootstrap
 
 WEBSITE LINK:
